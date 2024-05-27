@@ -1,12 +1,16 @@
 # Simple Perception Stack for Self-Driving Cars
 
+
+![car_det](https://github.com/mgtera200/PROJECTS/assets/127119775/e22becdd-b5a3-4c14-825c-b813b4200b27)
+
+
 ## Introduction
 This project demonstrates a simple perception stack for self-driving cars (SDCs) using computer vision techniques. The focus is on analyzing video streams from front-facing cameras to detect lane lines and other vehicles on the road.
 
 ## Project Overview
 The project is divided into two main tasks:
 
-### Task 1 - Lane Line Detection
+### Task 1 - Lane Line Detection - [![Output Video](https://github.com/mgtera200/PROJECTS/assets/127119775/e22becdd-b5a3-4c14-825c-b813b4200b27)](https://drive.google.com/file/d/1WeqngoYKfQe3-zhrwhLsD1pCoffYqgx6/view?usp=sharing)
 In this task, a software pipeline is developed to identify the lane boundaries in a video. The pipeline detects and tracks lane lines, highlights them, and overlays the detected lines on the original frames.
 
 ### Task 2 - Car Detection
