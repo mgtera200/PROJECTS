@@ -10,10 +10,10 @@ This project demonstrates a simple perception stack for self-driving cars (SDCs)
 ## Project Overview
 The project is divided into two main tasks:
 
-### Task 1 - Lane Line Detection - [![Output Video](https://github.com/mgtera200/PROJECTS/assets/127119775/e22becdd-b5a3-4c14-825c-b813b4200b27)](https://drive.google.com/file/d/1WeqngoYKfQe3-zhrwhLsD1pCoffYqgx6/view?usp=sharing)
+### Task 1 - Lane Line Detection - [![Output Video]](https://drive.google.com/file/d/1WeqngoYKfQe3-zhrwhLsD1pCoffYqgx6/view?usp=sharing)
 In this task, a software pipeline is developed to identify the lane boundaries in a video. The pipeline detects and tracks lane lines, highlights them, and overlays the detected lines on the original frames.
 
-### Task 2 - Car Detection
+### Task 2 - Car Detection - [![Output Video]](https://drive.google.com/file/d/18n7Anaozkn24yErfpM8ZSoZdtXvzXvu9/view?usp=sharing)
 This task involves detecting cars on the road using Haar cascade classifiers. The system locates and identifies vehicles in the video stream and draws bounding boxes around them.
 
 ## Technologies Used
