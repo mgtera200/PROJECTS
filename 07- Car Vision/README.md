@@ -13,7 +13,7 @@ The project is divided into two main tasks:
 ### Task 1 - Lane Line Detection -> [[ Output Video ]](https://drive.google.com/file/d/1WeqngoYKfQe3-zhrwhLsD1pCoffYqgx6/view?usp=sharing)
 In this task, a software pipeline is developed to identify the lane boundaries in a video. The pipeline detects and tracks lane lines, highlights them, and overlays the detected lines on the original frames.
 
-### Task 2 - Car Detection -> [![ Output Video ]](https://drive.google.com/file/d/18n7Anaozkn24yErfpM8ZSoZdtXvzXvu9/view?usp=sharing)
+### Task 2 - Car Detection -> [[ Output Video ]](https://drive.google.com/file/d/18n7Anaozkn24yErfpM8ZSoZdtXvzXvu9/view?usp=sharing)
 This task involves detecting cars on the road using Haar cascade classifiers. The system locates and identifies vehicles in the video stream and draws bounding boxes around them.
 
 ## Technologies Used
