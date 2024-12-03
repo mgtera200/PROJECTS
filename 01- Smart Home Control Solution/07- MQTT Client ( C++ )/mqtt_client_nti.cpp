@@ -1,3 +1,19 @@
+/*
+ * Smart Home Control Solution - MQTT Client Code
+ * ----------------------------------------------
+ * Author: Mostafa Gamal Tera
+ * Description:
+ * This program is part of a Smart Home Control Solution that uses MQTT protocol
+ * to communicate with embedded device drivers, specifically controlling devices 
+ * like LEDs and buzzers. The application subscribes to predefined topics and 
+ * writes messages to device files based on the MQTT message payloads.
+ * 
+ * This project demonstrates the integration of embedded Linux, IoT communication 
+ * protocols, and real-time control over smart home devices using MQTT.
+ */
+
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -20,7 +36,7 @@ private:
 
 public:
     Callback(const std::unordered_map<std::string, std::string>& file_paths) {
-        // Open a file for each topic
+
         for (const auto& pair : file_paths) {
             const std::string& topic = pair.first;
             const std::string& file_path = pair.second;
@@ -33,7 +49,7 @@ public:
     }
 
     ~Callback() {
-        // Close all files
+
         for (auto& pair : topic_files) {
             if (pair.second.is_open()) {
                 pair.second.close();
@@ -98,7 +114,7 @@ int main() {
     try {
         mqtt::async_client client(SERVER_ADDRESS, "");
 
-        // No need to open individual files for each topic since we are writing to /dev/* devices directly
+
         Callback cb({});
         client.set_callback(cb);
 
